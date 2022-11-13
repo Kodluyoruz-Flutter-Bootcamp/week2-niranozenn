@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dynamic ListView with Provider',
+      title: 'Flutter bootcamp week2',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
