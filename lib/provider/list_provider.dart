@@ -7,9 +7,4 @@ class ListProvider with ChangeNotifier {
     list.add(item);
     notifyListeners();
   }
-
-  void deleteItem(int index) {
-    list.removeAt(index);
-    notifyListeners();
-  }
 }
